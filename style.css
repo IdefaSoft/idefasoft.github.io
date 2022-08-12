@@ -1,0 +1,10 @@
+body {
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #120fe0, #0abfec);
+    background: linear-gradient(to right, #120fe0, #0abfec);
+    min-height: 100vh;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
