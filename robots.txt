@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /downloads.html
+Allow: /features/all.html
+Allow: /about.html
+Allow: /index.html
