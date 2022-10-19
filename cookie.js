@@ -131,9 +131,9 @@
 			cssCode += "#pjAcceptCookieBar a[href^=tel] { color: inherit; }";
 			cssCode += "#pjAcceptCookieBar a:focus,";
 			cssCode += "#pjAcceptCookieBar button:focus { outline: unset; outline: none; }";
-			cssCode += "#pjAcceptCookieBar p { font-size: 18px; line-height: 1.4; color: #fff; font-weight: 400; }";
-			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarActions { padding-top: 10px; }";
-			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarBtn { position: relative; display: inline-block; height: 46px; padding: 0 30px; border: 0; background: #4285f4; font-size: 18px; line-height: 44px; color: #fff; text-decoration: none; vertical-align: middle; cursor: pointer; border-radius: 0; -webkit-appearance: none; -webkit-border-radius: 0; -webkit-transform: translateZ(0); transform: translateZ(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; }";
+			cssCode += "#pjAcceptCookieBar p { font-size: 14px; line-height: 1.0; color: #fff; font-weight: 400; }";
+			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarActions { padding-top: 8px; }";
+			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarBtn { position: relative; display: inline-block; height: 35px; padding: 0 20px; border: 0; background: #4285f4; font-size: 14px; line-height: 35px; color: #fff; text-decoration: none; vertical-align: middle; cursor: pointer; border-radius: 0; -webkit-appearance: none; -webkit-border-radius: 0; -webkit-transform: translateZ(0); transform: translateZ(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; }";
 			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarBtn:hover,";
 			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarBtn:focus { text-decoration: none; }";
 			cssCode += "#pjAcceptCookieBar .pjAcceptCookieBarBtn:after { position: absolute; top: 0; right: 52%; bottom: 0; left: 52%; z-index: -1; border-bottom: 4px solid #14428d; background: rgba(20, 66, 141, .3); content: ''; }";
@@ -160,7 +160,7 @@
 			
 			htmlBar += '<div class="pjAcceptCookieBarShell">';
 			htmlBar += '<form action="#" method="post">';
-			htmlBar += '<p>Ce site utilise des cookies Google pour assurer le bon fonctionnement de ses services et analyser le trafic. Les informations relatives à votre utilisation du site sont partagées avec Google. En savoir plus sur les cookies.</p>';
+			htmlBar += '<p>Ce site utilise des cookies Google pour assurer le bon fonctionnement de ses services et analyser le trafic. Les informations relatives à votre utilisation du site sont partagées avec Google. <a href="https://idefasoft.github.io/privacy-policy.html">En savoir plus sur les cookies.</a></p>';
 			htmlBar += '<div class="pjAcceptCookieBarActions">';
 			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">Accepter et continuer</button>';
 			htmlBar += '</div>';
