@@ -4,7 +4,7 @@ body {
     background: linear-gradient(to right, #120fe0, #0abfec);
     min-height: 100vh;
   }
-  
-  .text-gray {
-    color: #aaa;
-  }
+
+.text-gray {
+  color: #aaa;
+}
