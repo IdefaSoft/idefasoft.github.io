@@ -18,8 +18,3 @@ body {
     font-weight: bold;
     margin: 40px 0 24px;
   }
-  
-  .content h2 span:before {
-    content: '#';
-    font-weight: normal;
-  }
