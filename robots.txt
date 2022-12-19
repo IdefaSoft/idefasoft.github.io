@@ -2,5 +2,12 @@ User-agent: *
 Allow: /
 Allow: /downloads.html
 Allow: /features/all.html
+Allow: /features/BatToExe.html
+Allow: /features/IdefaNote.html
+Allow: /features/MultipleScreenshots.html
+Allow: /features/PaysDuMonde.html
+Allow: /features/TextSender.html
+Allow: /features/TrieurDeFichiers.html
+Allow: /features/VigiFolder.html
 Allow: /about.html
 Allow: /index.html
