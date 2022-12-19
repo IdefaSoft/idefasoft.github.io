@@ -9,7 +9,12 @@ function scroll() {
       topButton.style.display = "none";
     }
 }
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 function goToTop() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
+  document.body.scroll({
+    top: 0,
+    behavior: "smooth"
+  });
 }
