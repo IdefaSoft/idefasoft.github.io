@@ -13,8 +13,5 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 function goToTop() {
-  document.body.scroll({
-    top: 0,
-    behavior: "smooth"
-  });
+    document.querySelectorAll("html, body").forEach((e) => e.scroll({ top: 0, behavior: "smooth"}))
 }
